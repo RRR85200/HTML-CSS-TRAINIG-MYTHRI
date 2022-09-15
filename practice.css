@@ -1,0 +1,71 @@
+/* Cascading Style Sheets*/
+
+.hello {
+  color: orange;
+  background-color: aqua;
+}
+
+.first-text {
+  color: red;
+  background-color: gray;
+}
+
+.practice-padding {
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  border: 1px solid red;
+}
+
+.height-width {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+
+  text-align: center;
+  text-transform: uppercase;
+  /* Outline styles */
+  outline-style: dotted;
+  outline-style: solid;
+  outline-color: red;
+  text-shadow: 2px 2px;
+
+  /* Fonts  */
+  font-family: cursive;
+}
+
+.block-scoped {
+  /* Display propert */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position-practice {
+  width: 300;
+  height: 150px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.position-one {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  bottom: 40%;
+}
+.position-two {
+  position: absolute;
+  right: 30%;
+  bottom: 40%;
+}
+
+.static {
+  position: static;
+}
+
+.position-fixed {
+    position: fixed;
+    border: 0.5px pink ;
+}
