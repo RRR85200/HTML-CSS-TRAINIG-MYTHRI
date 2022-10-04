@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UI Training</title>
+    <style>
+        .hello1 {
+            color: orange;
+            background-color: aqua;
+        }
+
+        .first-text1 {
+            color: red;
+            background-color: gray;
+        }
+
+        .inline-overide {
+            color: yellow;
+            margin-top: 10px !important;
+            margin-left: 20px;
+        }
+
+        .inline-overide-2 {
+            /* margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 15px; */
+            margin: 30px 15px 35px 10px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./practice.css">
+</head>
+
+<body>
+    <h1 class="hello">Hello</h1>
+    <p class="first-text">This is our first practice session</p>
+    <p style="color: blue;border: 1px solid pink;" class="inline-overide-2 inline-overide">I am inline style</p>
+    <div class="practice-padding">I am adding a huge padding to me !!</div>
+
+
+    <!-- Addding height and width -->
+    <div class="height-width">
+        i am tall and long
+    </div>
+
+    <!-- Block and inline elements -->
+    <div class="block-scoped">
+        <div>Block 1</div>
+        <div>Block 2</div>
+        <p>I am third in block</p>
+    </div>
+
+    <div class="inline-scoped">
+        <span>Inline 1</span>
+        <span>Inline 2</span>
+        <a> Inline 3</a>
+    </div>
+
+    <!-- Css Position  -->
+    <!-- It align one html wrt to other elements -->
+
+    <div class="position-practice">
+        <div class="static">I am static</div>
+        <div class="position-one">I am one </div>
+        <div class="position-two">I am one </div>
+        <div class="position-fixed">I am fixed</div>
+    </div>
+
+    <div class="z-class">
+        <img src="./Rose-test.jpeg" class="z-img" alt="Rose REd" />
+        <span class="z-text">Practice</span>
+    </div>
+
+    <div class="overflow-test">
+        You can use the overflow property when you want to have better control of the layout. The overflow property
+        specifies what happens if content overflows an element's box.
+    </div>
+
+    <div class="float-practice float-practice2">
+        <div class="div1">Div 1</div>
+        <div class="div2">Div 2</div>
+        <div class="div3">Div 3</div>
+
+        <div class="float-after">I am after float</div>
+    </div>
+
+    <div class="css-combinators">
+        <div class="first-div"> I am div 1 </div>
+        <p> I am first P tag</p>
+        <p>I am seconf p tag</p>
+        <div>I ma second div</div>
+        <div class="div1">Div 1 sesnf</div>
+        <p> I ma nafter div 3 tag</p>
+        <div class="div1">Div 1</div>
+        <p> I ma nafter div 1 tag</p>
+    </div>
+    <div>I ma outside css combinators</div>
+    <div>I ma outside css combinators but 2nd</div>
+
+
+    <!-- Css Psudeo classes -->
+
+    <div class="psuedo-class">
+        <button class="btn-1">I am bitton</button>
+        <button disabled class="btn-disabled">I am disabled</button>
+        <a class="anchor-tag" href="www.w3schools.com"></a>
+    </div>
+</body>
+
+</html>
